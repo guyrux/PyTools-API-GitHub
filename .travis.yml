@@ -3,8 +3,11 @@ python:
   - 3.7
 
 install:
-  - pip install -r requirements-dev.txt
+  - pip install -q -r requirements-dev.txt codecov
 
 script:
   - flake8
-  - pytest libpythonpro_github
+  - pytest libpythonpro_github --cov=libpythonpro_github
+
+after_success:
+  - codecov
