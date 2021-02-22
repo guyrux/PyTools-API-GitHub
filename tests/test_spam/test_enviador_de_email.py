@@ -1,5 +1,5 @@
-from libpythonpro_github.spam.enviador_de_email import Enviador, EmailInvalido
 import pytest
+from libpythonpro_github.spam.enviador_de_email import Enviador, EmailInvalido
 
 
 def test_criar_enviador_de_email():

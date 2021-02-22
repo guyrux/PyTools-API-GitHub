@@ -1,5 +1,5 @@
-from libpythonpro_github.spam.db import Conexao
 import pytest
+from libpythonpro_github.spam.db import Conexao
 
 
 @pytest.fixture(scope='session')
