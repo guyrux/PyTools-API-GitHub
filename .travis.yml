@@ -7,7 +7,7 @@ install:
 
 script:
   - flake8
-  - pytest libpythonpro_github --cov=libpythonpro_github
+  # - pytest libpythonpro_github --cov=libpythonpro_github
 
 after_success:
   - codecov
