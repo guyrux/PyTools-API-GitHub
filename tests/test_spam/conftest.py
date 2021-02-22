@@ -1,6 +1,7 @@
 from libpythonpro_github.spam.db import Conexao
 import pytest
 
+
 @pytest.fixture(scope='session')
 def conexao():
     # setup
@@ -8,6 +9,7 @@ def conexao():
     yield conexao_obj
     # tear down
     conexao_obj.fechar()
+
 
 @pytest.fixture
 def sessao(conexao):

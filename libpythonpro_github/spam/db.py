@@ -17,7 +17,6 @@ class Sessao:
         pass
 
 
-
 class Conexao:
 
     def gerar_sessao(self):
