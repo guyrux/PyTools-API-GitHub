@@ -145,10 +145,10 @@
         },
         "importlib-metadata": {
             "hashes": [
-                "sha256:24499ffde1b80be08284100393955842be4a59c7c16bbf2738aad0e464a8e0aa",
-                "sha256:c6af5dbf1126cd959c4a8d8efd61d4d3c83bddb0459a17e554284a077574b614"
+                "sha256:9dd89454add8894cc93619426949a58bdad9c1ef42822e46b884e7fc2d2a901e",
+                "sha256:ce8ae4d781be528001aad74ecfec7512641e36f1272effeea55164e47ae26841"
             ],
-            "version": "==3.7.0"
+            "version": "==3.8.0"
         },
         "iniconfig": {
             "hashes": [
